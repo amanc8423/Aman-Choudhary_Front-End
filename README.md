@@ -79,3 +79,5 @@ WrappedListComponent.defaultProps = {
   const List = memo(WrappedListComponent);
   
   export default List;
+  
+  // here instead of default items we can give input as array of objects like const items = [{text:"aman"},{text:"ajay"}]
